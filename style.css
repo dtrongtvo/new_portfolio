@@ -1,0 +1,246 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@400;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nanum+Pen+Script&family=Outfit:wght@400;600&display=swap");
+
+html {
+  font-size: 62.5%;
+  font-family: "Outfit", sans-serif;
+}
+
+body {
+  background-color: #fcfaf2;
+}
+
+/* COLOR */
+.primary {
+  color: #ffefba;
+}
+
+.darkest {
+  color: #26200d;
+}
+
+.dark {
+  color: #665b38;
+}
+
+.medium {
+  color: #998c63;
+}
+
+.light {
+  color: #f2e6b6;
+}
+
+.lightest {
+  color: #fcfaf2;
+}
+
+.white {
+  color: #fff;
+}
+
+/* TEXT STYLE */
+.sm-400 {
+  font-size: 1.2rem;
+  line-height: 1.6rem;
+  font-weight: 400;
+}
+
+.sm-600 {
+  font-size: 1.2rem;
+  line-height: 1.6rem;
+  font-weight: 600;
+}
+
+.md-400 {
+  font-size: 1.6rem;
+  line-height: 2.4rem;
+  font-weight: 400;
+}
+
+.md-600 {
+  font-size: 1.6rem;
+  line-height: 2.4rem;
+  font-weight: 600;
+}
+
+.l-400 {
+  font-size: 2.4rem;
+  line-height: 3.2rem;
+  font-weight: 400;
+}
+
+.l-600 {
+  font-size: 2.4rem;
+  line-height: 3.2rem;
+  font-weight: 600;
+}
+
+.xl-400 {
+  font-size: 3.6rem;
+  line-height: 4.8rem;
+  font-weight: 400;
+}
+
+.xl-600 {
+  font-size: 3.6rem;
+  line-height: 4.8rem;
+  font-weight: 600;
+}
+
+.xxl-400 {
+  font-size: 5.4rem;
+  line-height: 7.2rem;
+  font-weight: 400;
+}
+
+.xxl-600 {
+  font-size: 5.4rem;
+  line-height: 7.2rem;
+  font-weight: 600;
+}
+
+/* SHADOW */
+.shadow {
+  box-shadow: 0 4px 4px rgba(102, 91, 56, 0.25);
+}
+
+.container {
+  max-width: 118.4rem;
+  margin: 0 auto;
+}
+
+/* BUTTONS */
+
+.btn {
+  padding: 0.6rem 1.6rem;
+  transition: all 0.5s;
+  border-radius: 0.4rem;
+}
+
+.primary {
+  background-color: #665b38;
+  color: #fff;
+}
+
+.primary:hover {
+  background-color: #998c63;
+}
+
+.secondary {
+  color: #998c63;
+  border: 2px solid #998c63;
+}
+
+.secondary:hover {
+  background-color: #998c63;
+  color: #fff;
+}
+
+.link {
+    transition: all 0.5s;
+}
+.link:hover {
+  color: #998c63;
+  border-color: #998c63;
+}
+
+.header {
+  padding: 0 1.6rem;
+  position: sticky;
+  top: 0;
+  z-index: 8;
+  background-color: #fcfaf2;
+}
+
+.header__navContainer {
+  padding: 1.6rem 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.logo {
+  font-family: "Nanum Pen Script", cursive;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav {
+  display: flex;
+  gap: 2.4rem;
+}
+
+/* HEADLINE */
+.grid {
+  display: grid;
+  column-gap: 3.2rem;
+}
+.headline {
+  margin: 9.6rem auto 9.6rem;
+}
+
+.headline-container {
+  grid-template-columns: 9fr 3fr;
+}
+
+/* works */
+.works {
+  background-color: #fff;
+  padding: 9.6rem 0;
+}
+
+.work-container {
+  display: flex;
+  flex-direction: column;
+  gap: 6.4rem;
+}
+
+.work-item {
+  grid-template-columns: 6fr 6fr;
+}
+
+.work-item img {
+  width: 100%;
+  border-radius: 0.8rem;
+}
+
+/* contact */
+.contact {
+  background-color: #f2e6b6;
+  padding: 3.6rem 0;
+}
+
+.contact__social {
+  display: flex;
+  gap: 1.6rem;
+  font-size: 1.8rem;
+}
+
+.social__item {
+  color: #26200d;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 3.2rem;
+  height: 3.2rem;
+  border: 1px solid #26200d;
+  border-radius: 0.4rem;
+  transition: all 0.5s;
+}
+
+.about {
+    padding: 6.4rem 0;
+}
+
+.about-1 {
+    grid-template-columns: 5fr 7fr;
+}
+
+.about-2 {
+    grid-template-columns: 7fr 5fr;
+}
