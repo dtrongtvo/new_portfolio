@@ -83,9 +83,7 @@ body {
 }
 
 .xl-600 {
-  font-size: 3.6rem;
-  line-height: 4.8rem;
-  font-weight: 600;
+c
 }
 
 .xxl-400 {
@@ -138,7 +136,7 @@ body {
 }
 
 .link {
-    transition: all 0.5s;
+  transition: all 0.5s;
 }
 .link:hover {
   color: #998c63;
@@ -146,7 +144,7 @@ body {
 }
 
 .header {
-  padding: 0 1.6rem;
+  padding: 0 3.2rem;
   position: sticky;
   top: 0;
   z-index: 8;
@@ -181,6 +179,7 @@ body {
   column-gap: 3.2rem;
 }
 .headline {
+  padding: 0 3.2rem;
   margin: 9.6rem auto 9.6rem;
 }
 
@@ -195,6 +194,7 @@ body {
 }
 
 .work-container {
+  padding: 0 3.2rem;
   display: flex;
   flex-direction: column;
   gap: 6.4rem;
@@ -212,7 +212,7 @@ body {
 /* contact */
 .contact {
   background-color: #f2e6b6;
-  padding: 3.6rem 0;
+  padding: 3.6rem 3.2rem;
 }
 
 .contact__social {
@@ -234,13 +234,13 @@ body {
 }
 
 .about {
-    padding: 6.4rem 0;
+  padding: 6.4rem 3.2rem;
 }
 
 .about-1 {
-    grid-template-columns: 5fr 7fr;
+  grid-template-columns: 5fr 7fr;
 }
 
 .about-2 {
-    grid-template-columns: 7fr 5fr;
+  grid-template-columns: 7fr 5fr;
 }
