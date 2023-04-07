@@ -83,7 +83,9 @@ body {
 }
 
 .xl-600 {
-c
+  font-size: 3.6rem;
+  line-height: 4.8rem;
+  font-weight: 600;
 }
 
 .xxl-400 {
